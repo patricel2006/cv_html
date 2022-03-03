@@ -1,0 +1,126 @@
+@font-face 
+{
+    font-family: 'droid_sansregular';
+    src: url('DroidSans-webfont.eot');
+    src: url('DroidSans-webfont.eot?#iefix') format('embedded-opentype'),
+         url('DroidSans-webfont.woff') format('woff'),
+         url('DroidSans-webfont.ttf') format('truetype'),
+         url('DroidSans-webfont.svg#droid_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+#conteneur
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+#titre
+{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.el
+{
+    width: 33%;
+}
+
+.el:nth-child(3) h2
+{
+    text-align: center;
+    text-transform: lowercase;
+}
+
+
+
+
+.element
+{
+    width: 33%;
+    border: solid black 1px;
+}
+
+.element:nth-child(1) h2
+{
+    text-align: center;
+    color: sandybrown;
+    text-shadow: 3px 3px 3px brown;
+}
+
+.element:nth-child(1)
+{
+    text-align: center;
+}
+
+.element:nth-child(2) h2
+{
+    text-align: center;
+    color: sandybrown;
+    text-shadow: 3px 3px 3px brown;
+}
+
+.element:nth-child(2)
+{
+    text-align: center;
+}
+
+
+.element:nth-child(3) h2
+{
+    text-align: center;
+    color: sandybrown;
+    text-shadow: 3px 3px 3px brown;
+}
+
+.element:nth-child(3)
+{
+    text-align: center;
+}
+
+
+h1
+{
+    text-align: start;
+    text-transform: uppercase;
+    color: sandybrown;
+    padding: 20px;
+    font-size: 55px;
+    text-align: left;
+    text-shadow: 3px 3px 3px black;
+    font-family: 'droid_sansregular', 'Arial', sans-serif;
+
+}
+
+body
+{
+    background-image: url('./greyzz.png');
+}
+
+
+
+h2
+{
+    text-transform: uppercase;
+    font-family: 'droid_sansregular', 'Arial', sans-serif;
+
+    font-style: italic;
+    text-decoration: underline;
+}
+
+img
+{
+    position: relative;
+    left: 90px;
+    top:15px;
+    border: 2px solid black;
+    box-shadow: 4px 4px 4px black;
+
+}
+
+
