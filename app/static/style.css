@@ -11,7 +11,23 @@
 
 }
 
+@media all and (max-width: 1024px){
+    #bloc_page
+    {
+        width: auto;
 
+    }
+    #titre
+    {
+        display: block;
+        flex-direction: column;
+    }
+    #conteneur
+    {
+        display: block;
+        flex-direction: column;
+    }
+}
 
 #conteneur
 {
@@ -23,12 +39,12 @@
 {
     display: flex;
     justify-content: space-around;
-    flex-direction: row;
 }
 
 .el
 {
     width: 33%;
+    border: solid black 1px;
 }
 
 .el:nth-child(3) h2
